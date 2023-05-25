@@ -1,0 +1,87 @@
+/*---------------------footer content-------------------*/
+.footer-cotent{
+  background-color:  rgb(22, 101, 64);
+  height: 300px;
+  color: #fefefe;
+  display: grid;
+  border-top:30px solid #514e4e;
+  box-shadow: 1px 2px 15px #514e4e;
+ }
+ .footer-up{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  
+ }
+ 
+ .icon{
+  display: flex;
+  font-size: 1.5rem;
+  padding-top: 30px;
+  padding-left: 150px;/*-----*/
+  text-align: center;
+  cursor: pointer;
+ }
+ .icon i{
+  padding: 8px;
+ }
+ .icon i:hover{
+  color: #514e4e;
+ }
+.app-title-footer{
+ font-size: 2rem;
+ padding-top: 30px;
+ text-shadow: 2px 4px 4px #514e4e;
+ font-weight: bold;
+ font-family: "Rubik Vinyl", sans-serif;
+ margin-left: 20px;
+ line-height: 1em;
+}
+.app-title-footer span{
+ font-family: 'Libre Baskerville', serif;
+ margin-left: 60px;
+ font-size: 1.5rem;
+ font-weight: normal;
+ text-shadow: 1px 2px 5px #514e4e;
+}
+.footer-down{
+ font-size: 1rem;
+ text-shadow: 1px 2px 7px #514e4e;
+ text-align: center;
+ margin: 4px;
+}
+hr{
+ height: 2px;
+ background-color: #514e4e;
+ text-align: center;
+ margin: 20px;
+}
+
+/*----------------------------------------*/
+/*--------------------big screen--------------------*/
+@media (min-width: 768px){
+  .footer-up{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    
+  }
+  .icon{
+    font-size: 3rem;
+    
+  }
+  .icon i{
+    padding: 8px;
+    
+  }
+  .app-title-footer{
+    font-size: 4rem;
+    margin-left: 40px;
+  }
+  .app-title-footer span{
+    margin-left: 120px;
+    font-size: 4rem;
+  }
+  .footer-down{
+    font-size: 1.5rem;
+  }
+}
