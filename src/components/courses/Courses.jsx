@@ -5,7 +5,7 @@ import CourseBox from '../ui/CourseBox';
 
 const Courses = ({course}) => {
   return(
-    <CourseBox key = {course.Id}>
+    <CourseBox key = {course.id}>
       <div className = "course-text">
       <h2 class="course-name">{course.name}</h2>
         <ul>Course Number:

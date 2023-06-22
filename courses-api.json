@@ -44,6 +44,24 @@
       "startDate": "28-01-2023",
       "endDate": "28-02-2023",
       "id": 1127
+    },
+    {
+      "name": "web server2",
+      "courseNumber": "144650",
+      "teacher": "Michael Gustafsson",
+      "placeStudy": "Classroom",
+      "startDate": "28-03-2023",
+      "endDate": "28-04-2023",
+      "id": 1128
+    },
+    {
+      "name": "web server3",
+      "courseNumber": "144650",
+      "teacher": "Michael Gustafsson",
+      "placeStudy": "Classroom",
+      "startDate": "28-04-2023",
+      "endDate": "28-05-2023",
+      "id": 1129
     }
   ]
 }
