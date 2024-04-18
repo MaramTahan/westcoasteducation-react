@@ -39,7 +39,7 @@
   "author": "Maram Tahan",
   "license": "ISC",
   "devDependencies": {
-    "json-server": "^0.17.3",
+    "json-server": "^0.17.4",
     "nodemon": "^2.0.22"
   }
 }
